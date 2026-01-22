@@ -134,6 +134,8 @@ Each button triggers a corresponding bookmark that changes which chart is visibl
 **Title:** `Transactions by Month for Year 2024 [Line]`  
 **Purpose:** Show the monthly trend for **Amount** over the year 2024.
 
+`pics/column.png` 
+
 **Key characteristics:**
 - X-axis: **Month (January → December)**
 - Y-axis: **Amount (aggregated)** displayed with formatted labels (e.g., **K** units)
@@ -147,6 +149,8 @@ Each button triggers a corresponding bookmark that changes which chart is visibl
 **Type:** Clustered column chart  
 **Title:** `Transactions by Month for Year 2024 [Column]`  
 **Purpose:** Show the monthly distribution for **Amount** over the year 2024.
+
+`pics/line.png` 
 
 **Key characteristics:**
 - X-axis: **Month (January → December)**
