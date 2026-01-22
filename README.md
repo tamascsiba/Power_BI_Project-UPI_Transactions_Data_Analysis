@@ -56,3 +56,35 @@ BankNameSent=4, BankNameReceived=4, City=4, Gender=2, TransactionType=2, Status=
 - **CustomerAccountNumber / MerchantAccountNumber**: Sensitive identifiers (recommended masking before publishing).
 
 ---
+
+Calculated columns
+Age Groups (customer segmentation)
+
+Name: Age Groups
+Type: Calculated column (DAX)
+Table: UPI Transactions
+Goal: Create age bands for slicers/legends/axis grouping and demographic comparisons.
+
+```dax
+Age Groups =
+IF(
+    'UPI Transactions'[CustomerAge] <= 25, "A1", 
+    IF('UPI Transactions'[CustomerAge] <= 35, "A2", "A3")
+)
+```
+
+Logic
+
+A1: Age ≤ 25
+
+A2: Age 26–35
+
+A3: Age ≥ 36
+
+Typical usage
+
+Slicer: filter the entire report by age segment
+
+Legend: split bars/lines by age group
+
+Axis: compare KPIs by age group
