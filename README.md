@@ -218,4 +218,22 @@ This report page includes a **Matrix visual** for cross-dimensional analysis of 
 
 The matrix applies conditional formatting (heatmap-style shading) to highlight higher and lower values, making it easier to spot peaks, dips, and outliers across months, cities, and currencies.
 
+---
+
+## Summary
+
+This Power BI project delivers an interactive 2024 UPI transactions analysis with consistent filtering, bookmark-based chart switching, and a detailed matrix breakdown.
+
+### What the report provides
+
+- A unified slicer panel across pages to filter by banks, city, device, demographics, merchant, payment method, purpose, and transaction type.
+- Bookmark navigation to switch between **Line vs Column** and **Amount vs Balance** views without losing filter selections.
+- Monthly trend tracking to identify peaks, dips, and seasonal patterns.
+- A matrix view that aggregates **Amount** and **Remaining Balance** by **Month**, organized by **City → Currency**, with conditional formatting for quick pattern recognition.
+- Customer segmentation via **Age Groups** to support demographic comparisons in visuals.
+
+### Outcome
+
+The report supports quick monitoring and deeper analysis by allowing users to compare monthly performance, segment results by key dimensions, and validate high-level trends using a detailed cross-tab view.
+
 
