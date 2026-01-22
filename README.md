@@ -177,3 +177,45 @@ These visuals are accessed through the same bookmark navigation strip and react 
 - Switching between bookmarks changes only the visible visual (Line/Column, Amount/Balance), allowing users to compare perspectives without rebuilding the page or changing filters.
 - The page is designed for quick exploratory analysis (trend vs comparison) using the same filtered context.
 
+---
+
+## Matrix Table (Page)
+
+This report page includes a **Matrix visual** for cross-dimensional analysis of monthly performance by **City**, **Currency**, and **Month**, with both **Amount** and **Remaining Balance** displayed side-by-side.
+
+### Screenshot
+
+![Matrix Table – Monthly Amount and Remaining Balance by City and Currency](pics/matrix.png)
+
+*Caption: Matrix Table – Monthly Amount and Remaining Balance by City and Currency.*
+
+---
+
+### Global slicers (page-level filters)
+
+- **BankNameSent**
+- **BankNameReceived**
+- **City**
+- **DeviceType**
+- **Gender**
+- **Age Groups**
+- **MerchantName**
+- **PaymentMethod**
+- **Purpose**
+- **TransactionType**
+
+---
+
+### Matrix configuration
+
+- **Rows:** Month (January–December)  
+- **Columns:** City → Currency  
+- **Values:** Amount, Remaining Balance  
+
+---
+
+### Conditional formatting
+
+The matrix applies conditional formatting (heatmap-style shading) to highlight higher and lower values, making it easier to spot peaks, dips, and outliers across months, cities, and currencies.
+
+
