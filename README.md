@@ -87,3 +87,89 @@ Slicer: filter the entire report by age segment
 Legend: split bars/lines by age group
 
 Axis: compare KPIs by age group
+
+---
+
+## Bookmark Selection (Page)
+
+This page demonstrates **bookmark-based visual switching** for monthly trend analysis. Users can toggle between **Line vs Column** views, and between **Amount vs Balance** views, while keeping the same slicers/filters applied.
+
+---
+
+### Global slicers (page-level filters)
+
+The top section contains slicers that filter the currently displayed chart (and remain consistent when switching bookmarks):
+
+- **BankNameSent**
+- **BankNameReceived**
+- **City**
+- **DeviceType**
+- **Gender**
+- **Age Groups**
+- **MerchantName**
+- **PaymentMethod**
+- **Purpose**
+- **TransactionType**
+
+All slicers are set to **All** by default, enabling an immediate “full dataset” view.
+
+---
+
+### Bookmark navigation (visual switcher)
+
+A horizontal navigation strip is used to switch the displayed chart via bookmarks:
+
+- **Line Chart Amount**
+- **Column Chart Amount**
+- **Line Chart Balance**
+- **Column Chart Balance**
+
+Each button triggers a corresponding bookmark that changes which chart is visible, while preserving the same page layout and slicer selections.
+
+---
+
+### Visual: Transactions by Month for Year 2024 [Line] — Amount
+
+**Type:** Line chart  
+**Title:** `Transactions by Month for Year 2024 [Line]`  
+**Purpose:** Show the monthly trend for **Amount** over the year 2024.
+
+**Key characteristics:**
+- X-axis: **Month (January → December)**
+- Y-axis: **Amount (aggregated)** displayed with formatted labels (e.g., **K** units)
+- Data labels enabled on each point for quick month-to-month comparison
+- Smooth trend visibility with markers highlighting peaks and dips
+
+---
+
+### Visual: Transactions by Month for Year 2024 [Column] — Amount
+
+**Type:** Clustered column chart  
+**Title:** `Transactions by Month for Year 2024 [Column]`  
+**Purpose:** Show the monthly distribution for **Amount** over the year 2024.
+
+**Key characteristics:**
+- X-axis: **Month (January → December)**
+- Y-axis: **Amount (aggregated)** displayed with formatted labels (e.g., **M** units)
+- Data labels enabled on each column for fast ranking/comparison
+- Best for spotting the “highest/lowest months” at a glance
+
+---
+
+### Balance visuals (via bookmarks)
+
+The same layout and logic are used for **Balance** analysis:
+
+- **Line Chart Balance**: monthly trend view for **Balance** (aggregated)
+- **Column Chart Balance**: monthly comparison view for **Balance** (aggregated)
+
+These visuals are accessed through the same bookmark navigation strip and react to the same slicers.
+
+---
+
+### Interaction behavior
+
+- Slicers apply to the chart currently visible.
+- Switching between bookmarks changes only the visible visual (Line/Column, Amount/Balance), allowing users to compare perspectives without rebuilding the page or changing filters.
+- The page is designed for quick exploratory analysis (trend vs comparison) using the same filtered context.
+
