@@ -10,16 +10,6 @@ Power BI report built on a UPI transactions dataset to analyze transaction volum
 
 ---
 
-## Project goals
-
-- Track **overall transaction performance** (total amount, number of transactions, success rate).
-- Identify **time-based patterns** (daily/weekly/monthly trends, MoM change).
-- Compare **success vs failed** transactions across key dimensions (bank, city, payment mode/type).
-- Explore **merchant and purpose** drivers (Top N merchants, purpose distribution).
-- Provide **drillthrough detail** for investigation and export.
-
----
-
 ## Dataset overview
 
 | Metric | Value |
