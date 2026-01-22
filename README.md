@@ -134,7 +134,7 @@ Each button triggers a corresponding bookmark that changes which chart is visibl
 **Title:** `Transactions by Month for Year 2024 [Line]`  
 **Purpose:** Show the monthly trend for **Amount** over the year 2024.
 
-`pics/column.png` 
+![Bookmark Selection – Column chart (Amount)](pics/line.png)
 
 **Key characteristics:**
 - X-axis: **Month (January → December)**
@@ -150,7 +150,7 @@ Each button triggers a corresponding bookmark that changes which chart is visibl
 **Title:** `Transactions by Month for Year 2024 [Column]`  
 **Purpose:** Show the monthly distribution for **Amount** over the year 2024.
 
-`pics/line.png` 
+![Bookmark Selection – Column chart (Amount)](pics/column.png)
 
 **Key characteristics:**
 - X-axis: **Month (January → December)**
