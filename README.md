@@ -57,8 +57,8 @@ BankNameSent=4, BankNameReceived=4, City=4, Gender=2, TransactionType=2, Status=
 
 ---
 
-##Calculated columns
-#Age Groups (customer segmentation)
+## Calculated columns
+# Age Groups (customer segmentation)
 
 Name: Age Groups
 Type: Calculated column (DAX)
