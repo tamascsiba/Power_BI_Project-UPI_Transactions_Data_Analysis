@@ -2,7 +2,9 @@
 
 Power BI report built on a UPI transactions dataset to analyze transaction volume and value, success vs failed performance, trends over time, and breakdowns by banks, merchants, cities, devices, payment methods, and customer demographics.
 
-> Data source: `UPI_Transactions.xlsx` (Sheet1)
+> **Data source** `UPI_Transactions.xlsx`
+> **Full documentation is available in the PDF** `UPI_Transactions_Data_Analysis_Documentation.pdf`
+> **Power BI Dashboard** `UPI_Transactions_Data_Analysis.pbix`
 
 ---
 
